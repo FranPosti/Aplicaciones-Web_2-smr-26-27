@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+
+.bloque{
+    background: grey;
+}
+
+.trabajador1 {
+    color:blue;
+    text-align: center;
+}
+
+.trabajador2 {
+    color:green;
+    text-align: center;
+}
+
+.datos {
+    border: 2px solid;
+    border-bottom: 3px solid;
+}
+
+.Estudios {
+    border: 3px solid;
+}
