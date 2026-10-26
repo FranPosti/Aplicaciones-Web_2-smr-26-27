@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+main{
+        background-color: #FFF;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 500px;
+    align-self: center;
+    border-radius: 10px;
+    padding: 2rem;
+}
+footer{
+    color: #7f8c8d;
+    text-align: center;
+    margin-top:20px;
+    font-size: 14px;
+}
+
+h1{
+    font-family: "Georgia",serif;
+    color: #2c3e50;
+}
+
+h2{
+    font-family: "Georgia",serif;
+    color: #2c3e50;
+}
+
+img{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.lista-integrantes{
+    list-style: disc;
+    padding-left: 20px;
+
+}
+
+.tabla-exitos table,
+.tabla-exitos tr,
+.tabla-exitos td{
+    border: 1px solid #ddd;
+}
+
+.tabla-exitos table{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.tabla-exitos th{
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+}
+
+.tabla-exitos td{
+    padding: 10px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+a{
+    color: #e74c3c;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #c0382b
+}
