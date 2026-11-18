@@ -2,9 +2,25 @@
     box-sizing: border-box;
 }
 
-
-img {
-    max-width: 100px;
+body {
+    font-family: "Arial" , sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
 }
 
-div {border: 1px,solid,black;}
+main {
+    padding: 0 2rem 2rem 2rem;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    .cabezera-imagen{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
