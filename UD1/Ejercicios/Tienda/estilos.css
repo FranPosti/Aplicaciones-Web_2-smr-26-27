@@ -51,12 +51,14 @@ footer {
     color: white;
     text-align: center;
     font-size: 0.9rem;
+    
 }
 
 .contenedor-principal {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     padding: 10px;
     h1 {
