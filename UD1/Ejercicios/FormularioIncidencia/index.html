@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta author="Francisco Postigo Vargas">
+        <title>Formulario de incidencia</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <header>
+            <img src="imagenes\IAT-LOGOTIPO.jpg" alt="logotipo">
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Nueva Incidencia</legend>
+                    <div class="elemento-formulario">
+                        <label>Profesor *:</label>
+                        <input type="text" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="elemento-formulario">
+                        <label>Correo Electronico *:</label>
+                        <input type="text" placeholder="Ingrese su correo electronico">
+                    </div>
+                    <div class="elemento-formulario">
+                        <Label>Departamento *:</Label>
+                        <select name="tipo" id="tipo">
+                            <option value="informatica" >Informática</option>
+                            <option value="hardware">Hardware</option>
+                            <option value="desarrollo">Software</option>
+                            <option value="tester">Tester</option>
+                            <option value="desarrollo">Desarrollo</option>
+                        </select>
+                    </div>
+
+                    <div class="elemento-formulario">
+                        <label>Aula *:</label>
+                        <input type="number" min="1" max="20", step="1">
+                    </div>
+                    <div class="elemento-formulario">
+                        <label>Fecha de la incidencia *:</label>
+                        <input type="date">
+                    </div>
+                    <div class="elemento-formulario">
+                        <label>Hora de la incindencia *:</label>
+                        <input type="time">
+                    </div>
+                    <div class="elemento-formulario">
+                        <label>Descripción *:</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="elemento-formulario-archivo">
+                        <label>Imagen de la incidencia (opcional):</label>
+                        <input type="file" name = imagen>
+                    </div>
+
+                    <div class="botones">
+                        <button type="submit">Enviar incidencia</button>
+                        <button type="reset">Borrar formulario</button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <h3>Siguenos</h3>
+            <a href="https://www.facebook.com/cpifpalanturing/"  class="redes">
+                <img src="imagenes\icons8-facebook-48.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/cpifpalanturing/" class="redes">
+                <img src="imagenes\icons8-instagram-48.png" alt="instagram">
+            </a>
+            <a href="https://x.com/cpifpalanturing?lang=es" class="redes">
+                <img src="imagenes\icons8-twitter-48.png" alt="Twitter">
+            </a>
+            <a href="https://fpalanturing.es/"  class="redes">
+                <img src="imagenes\icons8-website-48.png" alt="Website">
+            </a>
+            <a href="https://www.youtube.com/@cpifpalanturing/videos"  class="redes">
+                <img src="imagenes\icons8-youtube-48.png" alt="Youtube">
+            </a>
+        </footer>
+    </body>
+</html>
